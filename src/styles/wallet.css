@@ -1,0 +1,53 @@
+.wallet{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    background-color: white;
+    height: 15vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.wallet img{
+    height: 3vh;
+    width: 3vw;
+}
+.bank_space{
+    width: 13vw;
+    height: 10vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bank, .income{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bank_space span{
+    font-size: 10px;
+}
+.wallet_money{
+    font-size: 30px;
+    position: relative;
+    bottom: 4vh;
+}
+.naija{
+    font-size: 20px;
+    
+}
+.income_img, .bank_img{
+    background-color: #D0CDE1;
+    padding: 5px 5px;
+    border-radius: 50%;
+    height: 6vh;
+}
+@media (max-width:425px){
+    .wallet{
+        width: 94vw;
+        height: 15vh;
+    }
+    .bank_space{
+        display: none;
+    }
+}

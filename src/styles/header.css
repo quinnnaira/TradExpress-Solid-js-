@@ -1,0 +1,106 @@
+header{
+
+    background-color: var(--purple);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    color: white;
+}
+header p{
+    margin-left: 3vw;
+    overflow-x: hidden;
+    max-width: 40vw;
+}
+header > button{
+    margin-left: 3vw;
+    background-color: white;
+    color: var(--purple);
+    width: 17vw;
+    height: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 2px;
+    border: none;
+}
+.headerp{
+    margin-top: 20vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.headerptwo{
+    font-size: 13px; 
+    text-transform: capitalize;
+    max-width: 27vw;
+    text-transform: capitalize;
+}
+.button-app-div{
+    display: flex;
+    width: 17vw;
+    margin-left: 3vw;
+}
+.appstore, .googleplay{
+    display: flex;
+    width: 8vw;
+    background-color: var(--purple);
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.googleplay{
+    margin-left: 1vw;
+}
+.appstore-div{
+    display: flex;
+    flex-direction: column;
+}
+.span-appstore{
+    text-align: left;
+    font-size: 10px;
+    margin-left: 2px;
+}
+.download{
+    font-size: 7px;
+    margin-top: 1vh;
+    margin-left: 2px;
+}
+
+@media (max-width:768px)  { 
+    header > button{
+        width: 20vw;
+    }
+    .appstore, .googleplay{
+        width: 10vw;
+    }
+    img{
+        margin-top: 5px;
+    }
+}
+@media (max-width:425px)  { 
+    header p {
+        max-width: 100vw;
+    }
+    .headerptwo{
+        font-size: 13px; 
+        max-width:100vw;
+        text-transform: capitalize;
+    }
+    header > button{
+        width: 90vw;
+    }
+    .button-app-div{
+        width: 90vw;
+    }
+    .appstore{
+        margin-left: 15vw;
+    }
+    .span-appstore{
+        margin-top: 2.4vh;
+        margin-left: 2vw;
+    }
+    .appstore, .googleplay{
+        width: 30vw;
+    }
+    .download{
+        display: none;
+    }
+ }
+@media (max-width:375px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }

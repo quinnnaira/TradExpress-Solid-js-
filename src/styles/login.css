@@ -1,0 +1,14 @@
+.remandforg{
+    width: 23vw;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+.forgot{
+    color: var(--purple);
+}
+.loginn{
+    width: 23vw!important;
+    border-radius: 3px;
+}

@@ -1,0 +1,55 @@
+.fetcher{
+    width: 100vw;
+    background-color: white;
+    height: 12vh;
+    display: flex;
+    
+}
+.img_loading{
+    display: none;
+}
+.crypto-div{
+    width: 20vw;
+    font-weight: bold;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.crypto{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-d{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    right: 4vw;
+    top: 1vh;
+}
+.up{
+    color: green;
+}
+.cryptop{
+    position: relative;
+    left: 5vh;
+    bottom: 1vh;
+    font-size: 12px;
+}
+.percentage{
+    position: relative;
+    left: 2vw;
+    bottom:1vh ;
+    font-size: 12px;
+}
+@media (max-width:425px)  { 
+    .fetcher{
+        flex-direction: column;
+        height: 75vh;
+    }
+    .crypto-div{
+        width: 100vw;
+    }
+    .img_loading{
+        display: block;
+        height: 79vh;
+    }
+ }

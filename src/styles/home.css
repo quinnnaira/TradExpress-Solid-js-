@@ -1,0 +1,200 @@
+.home{
+    background-color: #F2F2F2;
+}
+.first_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first_section_p{
+    text-align: center;
+    color: var(--purple);
+    margin-top: 6vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.first_section_div{
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    height: 60vh;
+}
+.first_section_div_child{
+    background-color: white;
+    border-radius: 3px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+.first_section_div_child p{
+    width: 25vw;
+    text-align: center;
+}
+
+.img1{
+    width: 6vw;
+    height: 10vh;
+    margin-top: 8vh;
+}
+.first_section button{
+    width: 14vw;
+    height: 5vh;
+    margin: auto;
+    margin-top: 6vh;
+}
+.second_section{
+    height: 150vh;
+    text-transform: capitalize;
+    color: #2D1B3A;
+}
+.second_section_child{
+    width: 90vw;
+    margin: 0% auto;
+}
+.second_section_p{
+    text-align: center;
+    color: var(--purple);
+    margin-top: 6vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.second_section_divs{
+    display: flex;
+    justify-content: space-between;
+}
+.dbc > p{
+    max-width: 40vw;
+}
+.size{
+    height: 35vh;
+}
+.third_section{
+    height: 55vh;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+    padding-top: 10vh;
+}
+.e{
+    background-color: white;
+}
+.third_section_button_div{
+    width: 36vw;
+    position: relative;
+    left: 38.5vw;
+    top: 6vh;
+    display: flex;
+    justify-content: space-around;
+}
+.thirdsectionbutton{
+    background-color: purple;
+    border: none;
+    padding: 15px 80px;
+    border-radius: 4px;
+}
+.third_section_button{
+    height: 6vh;
+    display: flex;
+}
+.customer_review{
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.customer_review  h4{
+    font-size: 20px;
+}
+.customer_review_child{
+    color: white;
+    background-image: url(../images/custo.png);
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 25vw;
+    padding-top: 5vh;
+    
+}
+.customer_review_child > span{
+    position: relative;
+    top: 5vh;
+    width: 15vw;
+    font-size: 15px;
+}
+.customer_review_child_section{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: white;
+    height: 30vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+}
+ul{
+   display: flex;
+   flex-direction: column; 
+   text-transform: capitalize;
+}
+li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+.first{
+    font-weight: bold;
+    color: purple;
+}
+@media (max-width:425px)  { 
+    .first_section_div{
+        flex-direction: column;
+        height: 160vh;
+    }
+    .first_section_div_child{
+        width: 100vw;
+    }
+    .first_section_div_child p{
+        width: 80vw;
+        text-align: center;
+    }
+    .first_section button{
+        width: 40vw;
+        height: 8vh;
+        
+    }
+    .img1{
+        width: 20vw;
+    }
+    .sec_img{
+        width: 20vw;
+        height: 20vh;
+        margin-top: 10vh;
+    }
+    .third_section_button_div{
+        display: none;
+    }
+    .customer_review{
+        height: 150vh;
+        display: flex;
+    }
+    .customer_review_child_section{
+        flex-direction: column;
+    }
+    .customer_review_child{
+        width: 90vw;
+        margin-top: 4vh;
+        position: relative;
+        left: 5vw;
+    }
+    .footer{
+        flex-direction: column;
+        height:130vh;
+    }
+    span{
+        width: 80vw;
+    }
+}

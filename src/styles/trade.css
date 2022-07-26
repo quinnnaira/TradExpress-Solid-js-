@@ -1,0 +1,15 @@
+.cointobuy{
+    width: 23vw;
+    height: 5vh;
+    border: none;
+    margin-top: 3vh;
+}
+
+@media (max-width:425px)  { 
+    .cointobuy{
+        width: 60vw;
+    }
+    .amount{
+        width: 50vw !important;
+    }
+ }
